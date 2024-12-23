@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #second-div-parent {
+        margin: 14px;
+        width: 200px;
+        display: flex;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Event bubling and capturing</div>
+    <div id="div-parent">
+      div parent bubbling
+      <button id="button-click">click me</button>
+    </div>
+    <div id="second-div-parent">
+      div parent capturing
+      <button id="second-button-click">capturing click me</button>
+    </div>
+    <div id="stop-propagation-div-parent">
+        div parent stop propagation
+        <button id="stop-propagation-button-click">click me</button>
+      </div>
+      <div id="immediate-div-parent">
+        div parent bubbling
+        <button id="immediate-button-click">click me</button>
+      </div>
+      <div>
+        <a href="contact.html" id="contact">contact me</a>
+      </div>
+    <script src="./bublingAndCapturing.js"></script>
+    
+  </body>
+</html>

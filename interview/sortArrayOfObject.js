@@ -1,0 +1,42 @@
+const customers = [
+  {
+    name: "john",
+    email: "john2000@gmail.com",
+    age: 20,
+    password: "123456",
+    mobile: "9182737465",
+    dob: "",
+  },
+  {
+    name: "jack",
+    email: "jack1995@yopmail.com",
+    age: 18,
+    password: "234561",
+    mobile: "7298217121",
+    dob: "",
+  },
+  {
+    name: "alice",
+    email: "alice1999@google.com",
+    age: 21,
+    password: "345612",
+    mobile: "6821782215",
+    dob: "",
+  },
+  {
+    name: "samiel",
+    email: "samiel@merchant.com",
+    age: 48,
+    password: "456123",
+    mobile: "6798921821",
+    dob: "",
+  },
+  {
+    name: "moren",
+    email: "moren@dase.com",
+    age: 40,
+    password: "561234",
+    mobile: "6393121852",
+    dob: "",
+  },
+];
